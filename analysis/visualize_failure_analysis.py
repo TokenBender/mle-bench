@@ -7,6 +7,7 @@ from pathlib import Path
 from dominate import document
 from dominate.tags import *
 from dominate.util import raw
+import numpy as np
 
 # Configuration
 INPUT_CSV = 'model_failure_analysis.csv'
@@ -75,12 +76,65 @@ EXPLANATIONS = {
     }
 }
 
-def create_html_report(image_files):
-    """Generate HTML report with explanations"""
+def generate_summary_table(df, json_data):
+    """Generate a summary table with key metrics per model"""
+    # Calculate metrics from CSV data
+    csv_stats = df.groupby('model').agg({
+        'success_rate': ['mean', 'max'],
+        'valid_rate': ['mean', 'max'],
+        'task_id': 'nunique'
+    }).reset_index()
+    csv_stats.columns = ['Model', 'Avg Success', 'Max Success', 'Avg Valid', 'Max Valid', 'Total Tasks']
+
+    # Calculate failure category counts from JSON data
+    failure_counts = []
+    for model, categories in json_data.items():
+        counts = {'Model': model}
+        for cat, tasks in categories.items():
+            counts[cat.replace('_', ' ').title()] = len(tasks)
+        failure_counts.append(counts)
+    
+    failure_df = pd.DataFrame(failure_counts).fillna(0)
+    
+    # Merge both data sources
+    merged = pd.merge(csv_stats, failure_df, on='Model')
+    
+    # Formatting
+    format_dict = {
+        'Avg Success': '{:.1%}',
+        'Max Success': '{:.1%}',
+        'Avg Valid': '{:.1%}',
+        'Max Valid': '{:.1%}',
+        'Total Tasks': '{:.0f}'
+    }
+    
+    for col in failure_df.columns[1:]:
+        format_dict[col] = '{:.0f}'
+    
+    return merged.style.format(format_dict, na_rep='-').background_gradient(
+        cmap='YlGn', subset=['Avg Success', 'Max Success']
+    ).background_gradient(
+        cmap='YlOrBr', subset=['Always Fail', 'High Failure']
+    ).set_caption(
+        "Key Performance Metrics by Model"
+    ).set_table_styles([{
+        'selector': 'caption',
+        'props': [('font-size', '16px'), ('font-weight', 'bold')]
+    }])
+
+def create_html_report(image_files, summary_table):
+    """Generate HTML report with explanations and summary table"""
     with document(title='AI Model Failure Analysis') as doc:
         h1('AI Model Performance Analysis Report')
         hr()
         
+        # Add summary table section
+        with div():
+            h2('Executive Summary')
+            raw(summary_table.to_html())  # Changed from render() to to_html()
+            hr()
+        
+        # Rest of existing report content remains...
         with div():
             h2('Report Contents')
             ul(
@@ -217,7 +271,7 @@ def plot_radar_chart(json_data):
 def main():
     df, json_data = load_data()
     
-    # Generate visualization images
+    # Generate all visualizations
     plot_files = [
         OUTPUT_DIR / 'success_rate_distribution.png',
         OUTPUT_DIR / 'valid_submission_rates.png',
@@ -226,13 +280,11 @@ def main():
         OUTPUT_DIR / 'failure_category_radar.png'
     ]
     
-    plot_model_performance(df)
-    plot_failure_categories(json_data)
-    plot_task_heatmap(df)
-    plot_radar_chart(json_data)
+    # Generate summary table
+    summary_table = generate_summary_table(df, json_data)
     
-    # Create HTML report
-    create_html_report(plot_files)
+    # Create HTML report with both
+    create_html_report(plot_files, summary_table)
     
     print(f"Visualizations saved to {OUTPUT_DIR}")
     print(f"HTML report: {REPORT_HTML}")
