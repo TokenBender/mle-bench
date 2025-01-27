@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Model Failure Analysis</title>
+  </head>
+  <body>
+    <h1>AI Model Performance Analysis Report</h1>
+    <hr>
+    <div>
+      <h2>Report Contents</h2>
+      <ul>
+        <li>
+          <a href="#success_rate_distribution">Success Rate Distribution</a>
+        </li>
+        <li>
+          <a href="#valid_submission_rates">Valid Submission Rates</a>
+        </li>
+        <li>
+          <a href="#failure_category_distribution">Failure Category Breakdown</a>
+        </li>
+        <li>
+          <a href="#task_success_heatmap">Task Success Heatmap</a>
+        </li>
+        <li>
+          <a href="#failure_category_radar">Failure Profile Radar</a>
+        </li>
+      </ul>
+    </div>
+    <div id="success_rate_distribution">
+      <h2>Success Rate Distribution</h2>
+      <img src="success_rate_distribution.png" style="width: 80%; margin: 20px auto; display: block;">
+      <div style="padding: 20px; background: #f5f5f5; border-radius: 5px;">
+        <b>How to read:</b> This boxplot shows the distribution of success rates across all tasks for each model.
+        - The box represents the interquartile range (IQR)
+        - The line inside the box is the median
+        - Whiskers show the range of typical values
+        - Points outside whiskers are outliers
+        
+        <b>Insight:</b> Higher median and tighter IQR indicate more consistent performance.
+        </div>
+      <hr>
+    </div>
+    <div id="valid_submission_rates">
+      <h2>Valid Submission Rates</h2>
+      <img src="valid_submission_rates.png" style="width: 80%; margin: 20px auto; display: block;">
+      <div style="padding: 20px; background: #f5f5f5; border-radius: 5px;">
+        <b>How to read:</b> Bar heights show the average percentage of valid (technically correct) submissions.
+        
+        <b>Insight:</b> High valid rates indicate good technical execution, even if solutions aren't optimal.
+        </div>
+      <hr>
+    </div>
+    <div id="failure_category_distribution">
+      <h2>Failure Category Breakdown</h2>
+      <img src="failure_category_distribution.png" style="width: 80%; margin: 20px auto; display: block;">
+      <div style="padding: 20px; background: #f5f5f5; border-radius: 5px;">
+        <b>How to read:</b> Stacked bars show count of tasks in each failure category.
+        - Always Fail: 0% success rate
+        - High Failure: >60% failure rate
+        - Medium Failure: 30-60% failure rate
+        - Low Failure: <30% failure rate
+        
+        <b>Insight:</b> More low-failure tasks indicate better overall performance.
+        </div>
+      <hr>
+    </div>
+    <div id="task_success_heatmap">
+      <h2>Task Success Heatmap</h2>
+      <img src="task_success_heatmap.png" style="width: 80%; margin: 20px auto; display: block;">
+      <div style="padding: 20px; background: #f5f5f5; border-radius: 5px;">
+        <b>How to read:</b> Color intensity shows success rate per task-model combination.
+        - Green: High success
+        - Yellow: Medium success
+        - Red: Low success
+        
+        <b>Insight:</b> Identify tasks where models excel or struggle collectively.
+        </div>
+      <hr>
+    </div>
+    <div id="failure_category_radar">
+      <h2>Failure Profile Radar</h2>
+      <img src="failure_category_radar.png" style="width: 80%; margin: 20px auto; display: block;">
+      <div style="padding: 20px; background: #f5f5f5; border-radius: 5px;">
+        <b>How to read:</b> Shape shows proportion of tasks in each failure category.
+        - Larger area in green (low failure) is better
+        - Spikes in red (always fail) indicate problem areas
+        
+        <b>Insight:</b> Compare overall failure profiles at a glance.
+        </div>
+      <hr>
+    </div>
+  </body>
+</html>

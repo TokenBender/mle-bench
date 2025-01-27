@@ -1,0 +1,1888 @@
+{
+  "Claude-3.5": {
+    "high_failure": [
+      {
+        "task_id": "dogs-vs-cats-redux-kernels-edition",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.3333,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "histopathologic-cancer-detection",
+        "total_runs": 3,
+        "valid_submissions": 1,
+        "success_rate": 0.3333,
+        "valid_rate": 0.3333
+      },
+      {
+        "task_id": "predict-volcanic-eruptions-ingv-oe",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.3333,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "stanford-covid-vaccine",
+        "total_runs": 5,
+        "valid_submissions": 3,
+        "success_rate": 0.2,
+        "valid_rate": 0.6
+      }
+    ],
+    "always_fail": [
+      {
+        "task_id": "3d-object-detection-for-autonomous-vehicles",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "AI4Code",
+        "total_runs": 4,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 0.75
+      },
+      {
+        "task_id": "aerial-cactus-identification",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "alaska2-image-steganalysis",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "aptos2019-blindness-detection",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "bms-molecular-translation",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "cassava-leaf-disease-classification",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "cdiscount-image-classification-challenge",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "chaii-hindi-and-tamil-question-answering",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "champs-scalar-coupling",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "denoising-dirty-documents",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "detecting-insults-in-social-commentary",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "dog-breed-identification",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "facebook-recruiting-iii-keyword-extraction",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "freesound-audio-tagging-2019",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "google-quest-challenge",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "google-research-identify-contrails-reduce-global-warming",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "h-and-m-personalized-fashion-recommendations",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "icecube-neutrinos-in-deep-ice",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "imet-2020-fgvc7",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "iwildcam-2019-fgvc6",
+        "total_runs": 5,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "iwildcam-2020-fgvc7",
+        "total_runs": 4,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "jigsaw-toxic-comment-classification-challenge",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "jigsaw-unintended-bias-in-toxicity-classification",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "kuzushiji-recognition",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "leaf-classification",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "learning-agency-lab-automated-essay-scoring-2",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "lmsys-chatbot-arena",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "mlsp-2013-birds",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "multi-modal-gesture-recognition",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "new-york-city-taxi-fare-prediction",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "nfl-player-contact-detection",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "osic-pulmonary-fibrosis-progression",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "petfinder-pawpularity-score",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "random-acts-of-pizza",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "ranzcr-clip-catheter-line-classification",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "seti-breakthrough-listen",
+        "total_runs": 4,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.25
+      },
+      {
+        "task_id": "siim-covid19-detection",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "siim-isic-melanoma-classification",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "smartphone-decimeter-2022",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "spooky-author-identification",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "statoil-iceberg-classifier-challenge",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tabular-playground-series-may-2022",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tensorflow-speech-recognition-challenge",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tensorflow2-question-answering",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "tgs-salt-identification-challenge",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "tweet-sentiment-extraction",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "us-patent-phrase-to-phrase-matching",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "ventilator-pressure-prediction",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "whale-categorization-playground",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      }
+    ],
+    "low_failure": [
+      {
+        "task_id": "nomad2018-predict-transparent-conductors",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.75,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2020-fgvc7",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 1.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "the-icml-2013-whale-challenge-right-whale-redux",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 1.0,
+        "valid_rate": 1.0
+      }
+    ],
+    "medium_failure": [
+      {
+        "task_id": "hotel-id-2021-fgvc8",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.5,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2021-fgvc8",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.6667,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "tabular-playground-series-dec-2021",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.6667,
+        "valid_rate": 1.0
+      }
+    ]
+  },
+  "LLama-3.1": {
+    "always_fail": [
+      {
+        "task_id": "3d-object-detection-for-autonomous-vehicles",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "AI4Code",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "aerial-cactus-identification",
+        "total_runs": 5,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.2
+      },
+      {
+        "task_id": "alaska2-image-steganalysis",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "aptos2019-blindness-detection",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "cassava-leaf-disease-classification",
+        "total_runs": 5,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.4
+      },
+      {
+        "task_id": "chaii-hindi-and-tamil-question-answering",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "denoising-dirty-documents",
+        "total_runs": 4,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "detecting-insults-in-social-commentary",
+        "total_runs": 5,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "dog-breed-identification",
+        "total_runs": 4,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "dogs-vs-cats-redux-kernels-edition",
+        "total_runs": 5,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 0.6
+      },
+      {
+        "task_id": "freesound-audio-tagging-2019",
+        "total_runs": 4,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "google-quest-challenge",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "google-research-identify-contrails-reduce-global-warming",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "histopathologic-cancer-detection",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "hms-harmful-brain-activity-classification",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "imet-2020-fgvc7",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "iwildcam-2019-fgvc6",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "jigsaw-toxic-comment-classification-challenge",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "jigsaw-unintended-bias-in-toxicity-classification",
+        "total_runs": 1,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "kuzushiji-recognition",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "leaf-classification",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "learning-agency-lab-automated-essay-scoring-2",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "lmsys-chatbot-arena",
+        "total_runs": 5,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 0.6
+      },
+      {
+        "task_id": "mlsp-2013-birds",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "multi-modal-gesture-recognition",
+        "total_runs": 2,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "new-york-city-taxi-fare-prediction",
+        "total_runs": 2,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "nfl-player-contact-detection",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "osic-pulmonary-fibrosis-progression",
+        "total_runs": 4,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "petfinder-pawpularity-score",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "predict-volcanic-eruptions-ingv-oe",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "random-acts-of-pizza",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "ranzcr-clip-catheter-line-classification",
+        "total_runs": 3,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "rsna-breast-cancer-detection",
+        "total_runs": 1,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "seti-breakthrough-listen",
+        "total_runs": 3,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.3333
+      },
+      {
+        "task_id": "siim-covid19-detection",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "siim-isic-melanoma-classification",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "smartphone-decimeter-2022",
+        "total_runs": 2,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "spooky-author-identification",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "stanford-covid-vaccine",
+        "total_runs": 5,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "statoil-iceberg-classifier-challenge",
+        "total_runs": 3,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.3333
+      },
+      {
+        "task_id": "tabular-playground-series-may-2022",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tensorflow-speech-recognition-challenge",
+        "total_runs": 5,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.8
+      },
+      {
+        "task_id": "tgs-salt-identification-challenge",
+        "total_runs": 5,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "the-icml-2013-whale-challenge-right-whale-redux",
+        "total_runs": 5,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.8
+      },
+      {
+        "task_id": "uw-madison-gi-tract-image-segmentation",
+        "total_runs": 3,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "ventilator-pressure-prediction",
+        "total_runs": 4,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "vesuvius-challenge-ink-detection",
+        "total_runs": 2,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "whale-categorization-playground",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      }
+    ],
+    "medium_failure": [
+      {
+        "task_id": "nomad2018-predict-transparent-conductors",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.6,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2020-fgvc7",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.4,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2021-fgvc8",
+        "total_runs": 5,
+        "valid_submissions": 4,
+        "success_rate": 0.4,
+        "valid_rate": 0.8
+      }
+    ],
+    "low_failure": [
+      {
+        "task_id": "tabular-playground-series-dec-2021",
+        "total_runs": 5,
+        "valid_submissions": 5,
+        "success_rate": 0.8,
+        "valid_rate": 1.0
+      }
+    ]
+  },
+  "O1-Preview": {
+    "medium_failure": [
+      {
+        "task_id": "denoising-dirty-documents",
+        "total_runs": 21,
+        "valid_submissions": 17,
+        "success_rate": 0.4286,
+        "valid_rate": 0.8095
+      },
+      {
+        "task_id": "detecting-insults-in-social-commentary",
+        "total_runs": 21,
+        "valid_submissions": 10,
+        "success_rate": 0.4286,
+        "valid_rate": 0.4762
+      },
+      {
+        "task_id": "google-quest-challenge",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.6667,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "herbarium-2020-fgvc7",
+        "total_runs": 21,
+        "valid_submissions": 18,
+        "success_rate": 0.4286,
+        "valid_rate": 0.8571
+      },
+      {
+        "task_id": "hotel-id-2021-fgvc8",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.6667,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2020-fgvc7",
+        "total_runs": 20,
+        "valid_submissions": 17,
+        "success_rate": 0.7,
+        "valid_rate": 0.85
+      },
+      {
+        "task_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.4762,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "stanford-covid-vaccine",
+        "total_runs": 20,
+        "valid_submissions": 19,
+        "success_rate": 0.4,
+        "valid_rate": 0.95
+      },
+      {
+        "task_id": "the-icml-2013-whale-challenge-right-whale-redux",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.6667,
+        "valid_rate": 1.0
+      }
+    ],
+    "always_fail": [
+      {
+        "task_id": "AI4Code",
+        "total_runs": 20,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 0.95
+      },
+      {
+        "task_id": "alaska2-image-steganalysis",
+        "total_runs": 21,
+        "valid_submissions": 18,
+        "success_rate": 0.0,
+        "valid_rate": 0.8571
+      },
+      {
+        "task_id": "billion-word-imputation",
+        "total_runs": 18,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.2222
+      },
+      {
+        "task_id": "bms-molecular-translation",
+        "total_runs": 21,
+        "valid_submissions": 11,
+        "success_rate": 0.0,
+        "valid_rate": 0.5238
+      },
+      {
+        "task_id": "cdiscount-image-classification-challenge",
+        "total_runs": 20,
+        "valid_submissions": 18,
+        "success_rate": 0.0,
+        "valid_rate": 0.9
+      },
+      {
+        "task_id": "chaii-hindi-and-tamil-question-answering",
+        "total_runs": 21,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 0.9524
+      },
+      {
+        "task_id": "champs-scalar-coupling",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "dog-breed-identification",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "facebook-recruiting-iii-keyword-extraction",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "freesound-audio-tagging-2019",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "google-research-identify-contrails-reduce-global-warming",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "herbarium-2022-fgvc9",
+        "total_runs": 17,
+        "valid_submissions": 16,
+        "success_rate": 0.0,
+        "valid_rate": 0.9412
+      },
+      {
+        "task_id": "hms-harmful-brain-activity-classification",
+        "total_runs": 19,
+        "valid_submissions": 14,
+        "success_rate": 0.0,
+        "valid_rate": 0.7368
+      },
+      {
+        "task_id": "hubmap-kidney-segmentation",
+        "total_runs": 21,
+        "valid_submissions": 13,
+        "success_rate": 0.0,
+        "valid_rate": 0.619
+      },
+      {
+        "task_id": "icecube-neutrinos-in-deep-ice",
+        "total_runs": 20,
+        "valid_submissions": 18,
+        "success_rate": 0.0,
+        "valid_rate": 0.9
+      },
+      {
+        "task_id": "imet-2020-fgvc7",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "iwildcam-2020-fgvc7",
+        "total_runs": 21,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "jigsaw-unintended-bias-in-toxicity-classification",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "learning-agency-lab-automated-essay-scoring-2",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "lmsys-chatbot-arena",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "multi-modal-gesture-recognition",
+        "total_runs": 21,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 0.9524
+      },
+      {
+        "task_id": "new-york-city-taxi-fare-prediction",
+        "total_runs": 19,
+        "valid_submissions": 16,
+        "success_rate": 0.0,
+        "valid_rate": 0.8421
+      },
+      {
+        "task_id": "nfl-player-contact-detection",
+        "total_runs": 21,
+        "valid_submissions": 15,
+        "success_rate": 0.0,
+        "valid_rate": 0.7143
+      },
+      {
+        "task_id": "osic-pulmonary-fibrosis-progression",
+        "total_runs": 20,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 0.95
+      },
+      {
+        "task_id": "petfinder-pawpularity-score",
+        "total_runs": 20,
+        "valid_submissions": 18,
+        "success_rate": 0.0,
+        "valid_rate": 0.9
+      },
+      {
+        "task_id": "ranzcr-clip-catheter-line-classification",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "rsna-2022-cervical-spine-fracture-detection",
+        "total_runs": 19,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "rsna-breast-cancer-detection",
+        "total_runs": 19,
+        "valid_submissions": 12,
+        "success_rate": 0.0,
+        "valid_rate": 0.6316
+      },
+      {
+        "task_id": "seti-breakthrough-listen",
+        "total_runs": 21,
+        "valid_submissions": 15,
+        "success_rate": 0.0,
+        "valid_rate": 0.7143
+      },
+      {
+        "task_id": "siim-covid19-detection",
+        "total_runs": 20,
+        "valid_submissions": 6,
+        "success_rate": 0.0,
+        "valid_rate": 0.3
+      },
+      {
+        "task_id": "siim-isic-melanoma-classification",
+        "total_runs": 21,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 0.9524
+      },
+      {
+        "task_id": "smartphone-decimeter-2022",
+        "total_runs": 21,
+        "valid_submissions": 8,
+        "success_rate": 0.0,
+        "valid_rate": 0.381
+      },
+      {
+        "task_id": "statoil-iceberg-classifier-challenge",
+        "total_runs": 19,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tabular-playground-series-may-2022",
+        "total_runs": 21,
+        "valid_submissions": 18,
+        "success_rate": 0.0,
+        "valid_rate": 0.8571
+      },
+      {
+        "task_id": "tensorflow-speech-recognition-challenge",
+        "total_runs": 19,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tensorflow2-question-answering",
+        "total_runs": 21,
+        "valid_submissions": 15,
+        "success_rate": 0.0,
+        "valid_rate": 0.7143
+      },
+      {
+        "task_id": "tgs-salt-identification-challenge",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "uw-madison-gi-tract-image-segmentation",
+        "total_runs": 18,
+        "valid_submissions": 10,
+        "success_rate": 0.0,
+        "valid_rate": 0.5556
+      },
+      {
+        "task_id": "ventilator-pressure-prediction",
+        "total_runs": 21,
+        "valid_submissions": 20,
+        "success_rate": 0.0,
+        "valid_rate": 0.9524
+      },
+      {
+        "task_id": "vesuvius-challenge-ink-detection",
+        "total_runs": 21,
+        "valid_submissions": 11,
+        "success_rate": 0.0,
+        "valid_rate": 0.5238
+      },
+      {
+        "task_id": "vinbigdata-chest-xray-abnormalities-detection",
+        "total_runs": 19,
+        "valid_submissions": 12,
+        "success_rate": 0.0,
+        "valid_rate": 0.6316
+      },
+      {
+        "task_id": "whale-categorization-playground",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      }
+    ],
+    "low_failure": [
+      {
+        "task_id": "dogs-vs-cats-redux-kernels-edition",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 1.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "histopathologic-cancer-detection",
+        "total_runs": 20,
+        "valid_submissions": 17,
+        "success_rate": 0.8,
+        "valid_rate": 0.85
+      },
+      {
+        "task_id": "nomad2018-predict-transparent-conductors",
+        "total_runs": 20,
+        "valid_submissions": 19,
+        "success_rate": 0.8,
+        "valid_rate": 0.95
+      },
+      {
+        "task_id": "plant-pathology-2021-fgvc8",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 1.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "predict-volcanic-eruptions-ingv-oe",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.8,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tabular-playground-series-dec-2021",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.8095,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "text-normalization-challenge-english-language",
+        "total_runs": 20,
+        "valid_submissions": 20,
+        "success_rate": 0.75,
+        "valid_rate": 1.0
+      }
+    ],
+    "high_failure": [
+      {
+        "task_id": "3d-object-detection-for-autonomous-vehicles",
+        "total_runs": 21,
+        "valid_submissions": 18,
+        "success_rate": 0.0476,
+        "valid_rate": 0.8571
+      },
+      {
+        "task_id": "aerial-cactus-identification",
+        "total_runs": 21,
+        "valid_submissions": 12,
+        "success_rate": 0.0952,
+        "valid_rate": 0.5714
+      },
+      {
+        "task_id": "aptos2019-blindness-detection",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.3333,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "cassava-leaf-disease-classification",
+        "total_runs": 21,
+        "valid_submissions": 15,
+        "success_rate": 0.0476,
+        "valid_rate": 0.7143
+      },
+      {
+        "task_id": "h-and-m-personalized-fashion-recommendations",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0952,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "herbarium-2021-fgvc8",
+        "total_runs": 19,
+        "valid_submissions": 17,
+        "success_rate": 0.0526,
+        "valid_rate": 0.8947
+      },
+      {
+        "task_id": "inaturalist-2019-fgvc6",
+        "total_runs": 19,
+        "valid_submissions": 14,
+        "success_rate": 0.0526,
+        "valid_rate": 0.7368
+      },
+      {
+        "task_id": "iwildcam-2019-fgvc6",
+        "total_runs": 21,
+        "valid_submissions": 1,
+        "success_rate": 0.0476,
+        "valid_rate": 0.0476
+      },
+      {
+        "task_id": "jigsaw-toxic-comment-classification-challenge",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.1905,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "kuzushiji-recognition",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0476,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "leaf-classification",
+        "total_runs": 21,
+        "valid_submissions": 20,
+        "success_rate": 0.0952,
+        "valid_rate": 0.9524
+      },
+      {
+        "task_id": "mlsp-2013-birds",
+        "total_runs": 21,
+        "valid_submissions": 16,
+        "success_rate": 0.0952,
+        "valid_rate": 0.7619
+      },
+      {
+        "task_id": "random-acts-of-pizza",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.2381,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "spooky-author-identification",
+        "total_runs": 20,
+        "valid_submissions": 19,
+        "success_rate": 0.25,
+        "valid_rate": 0.95
+      },
+      {
+        "task_id": "text-normalization-challenge-russian-language",
+        "total_runs": 21,
+        "valid_submissions": 18,
+        "success_rate": 0.1429,
+        "valid_rate": 0.8571
+      },
+      {
+        "task_id": "tweet-sentiment-extraction",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0476,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "us-patent-phrase-to-phrase-matching",
+        "total_runs": 21,
+        "valid_submissions": 21,
+        "success_rate": 0.0476,
+        "valid_rate": 1.0
+      }
+    ]
+  },
+  "GPT-4o": {
+    "medium_failure": [
+      {
+        "task_id": "nomad2018-predict-transparent-conductors",
+        "total_runs": 36,
+        "valid_submissions": 34,
+        "success_rate": 0.6667,
+        "valid_rate": 0.9444
+      },
+      {
+        "task_id": "predict-volcanic-eruptions-ingv-oe",
+        "total_runs": 36,
+        "valid_submissions": 36,
+        "success_rate": 0.6389,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "stanford-covid-vaccine",
+        "total_runs": 44,
+        "valid_submissions": 41,
+        "success_rate": 0.5,
+        "valid_rate": 0.9318
+      },
+      {
+        "task_id": "text-normalization-challenge-english-language",
+        "total_runs": 31,
+        "valid_submissions": 31,
+        "success_rate": 0.4839,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "the-icml-2013-whale-challenge-right-whale-redux",
+        "total_runs": 36,
+        "valid_submissions": 34,
+        "success_rate": 0.6111,
+        "valid_rate": 0.9444
+      }
+    ],
+    "high_failure": [
+      {
+        "task_id": "aerial-cactus-identification",
+        "total_runs": 36,
+        "valid_submissions": 22,
+        "success_rate": 0.1389,
+        "valid_rate": 0.6111
+      },
+      {
+        "task_id": "dogs-vs-cats-redux-kernels-edition",
+        "total_runs": 34,
+        "valid_submissions": 31,
+        "success_rate": 0.3824,
+        "valid_rate": 0.9118
+      },
+      {
+        "task_id": "google-quest-challenge",
+        "total_runs": 34,
+        "valid_submissions": 34,
+        "success_rate": 0.2059,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "histopathologic-cancer-detection",
+        "total_runs": 36,
+        "valid_submissions": 17,
+        "success_rate": 0.3889,
+        "valid_rate": 0.4722
+      },
+      {
+        "task_id": "hotel-id-2021-fgvc8",
+        "total_runs": 23,
+        "valid_submissions": 22,
+        "success_rate": 0.087,
+        "valid_rate": 0.9565
+      },
+      {
+        "task_id": "inaturalist-2019-fgvc6",
+        "total_runs": 12,
+        "valid_submissions": 8,
+        "success_rate": 0.0833,
+        "valid_rate": 0.6667
+      },
+      {
+        "task_id": "mlsp-2013-birds",
+        "total_runs": 12,
+        "valid_submissions": 4,
+        "success_rate": 0.0833,
+        "valid_rate": 0.3333
+      },
+      {
+        "task_id": "random-acts-of-pizza",
+        "total_runs": 36,
+        "valid_submissions": 36,
+        "success_rate": 0.0833,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+        "total_runs": 34,
+        "valid_submissions": 30,
+        "success_rate": 0.2059,
+        "valid_rate": 0.8824
+      },
+      {
+        "task_id": "spooky-author-identification",
+        "total_runs": 35,
+        "valid_submissions": 34,
+        "success_rate": 0.0286,
+        "valid_rate": 0.9714
+      },
+      {
+        "task_id": "tensorflow-speech-recognition-challenge",
+        "total_runs": 45,
+        "valid_submissions": 45,
+        "success_rate": 0.0444,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "whale-categorization-playground",
+        "total_runs": 34,
+        "valid_submissions": 34,
+        "success_rate": 0.0294,
+        "valid_rate": 1.0
+      }
+    ],
+    "always_fail": [
+      {
+        "task_id": "3d-object-detection-for-autonomous-vehicles",
+        "total_runs": 33,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 0.5758
+      },
+      {
+        "task_id": "AI4Code",
+        "total_runs": 29,
+        "valid_submissions": 19,
+        "success_rate": 0.0,
+        "valid_rate": 0.6552
+      },
+      {
+        "task_id": "alaska2-image-steganalysis",
+        "total_runs": 35,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.1143
+      },
+      {
+        "task_id": "aptos2019-blindness-detection",
+        "total_runs": 35,
+        "valid_submissions": 35,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "billion-word-imputation",
+        "total_runs": 5,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "bms-molecular-translation",
+        "total_runs": 14,
+        "valid_submissions": 8,
+        "success_rate": 0.0,
+        "valid_rate": 0.5714
+      },
+      {
+        "task_id": "cassava-leaf-disease-classification",
+        "total_runs": 35,
+        "valid_submissions": 26,
+        "success_rate": 0.0,
+        "valid_rate": 0.7429
+      },
+      {
+        "task_id": "cdiscount-image-classification-challenge",
+        "total_runs": 25,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.16
+      },
+      {
+        "task_id": "chaii-hindi-and-tamil-question-answering",
+        "total_runs": 34,
+        "valid_submissions": 34,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "champs-scalar-coupling",
+        "total_runs": 35,
+        "valid_submissions": 35,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "denoising-dirty-documents",
+        "total_runs": 37,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "detecting-insults-in-social-commentary",
+        "total_runs": 34,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "dog-breed-identification",
+        "total_runs": 34,
+        "valid_submissions": 29,
+        "success_rate": 0.0,
+        "valid_rate": 0.8529
+      },
+      {
+        "task_id": "facebook-recruiting-iii-keyword-extraction",
+        "total_runs": 7,
+        "valid_submissions": 7,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "freesound-audio-tagging-2019",
+        "total_runs": 35,
+        "valid_submissions": 34,
+        "success_rate": 0.0,
+        "valid_rate": 0.9714
+      },
+      {
+        "task_id": "google-research-identify-contrails-reduce-global-warming",
+        "total_runs": 41,
+        "valid_submissions": 36,
+        "success_rate": 0.0,
+        "valid_rate": 0.878
+      },
+      {
+        "task_id": "h-and-m-personalized-fashion-recommendations",
+        "total_runs": 25,
+        "valid_submissions": 24,
+        "success_rate": 0.0,
+        "valid_rate": 0.96
+      },
+      {
+        "task_id": "herbarium-2021-fgvc8",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "herbarium-2022-fgvc9",
+        "total_runs": 2,
+        "valid_submissions": 1,
+        "success_rate": 0.0,
+        "valid_rate": 0.5
+      },
+      {
+        "task_id": "hms-harmful-brain-activity-classification",
+        "total_runs": 25,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 0.84
+      },
+      {
+        "task_id": "hubmap-kidney-segmentation",
+        "total_runs": 10,
+        "valid_submissions": 8,
+        "success_rate": 0.0,
+        "valid_rate": 0.8
+      },
+      {
+        "task_id": "icecube-neutrinos-in-deep-ice",
+        "total_runs": 10,
+        "valid_submissions": 8,
+        "success_rate": 0.0,
+        "valid_rate": 0.8
+      },
+      {
+        "task_id": "imet-2020-fgvc7",
+        "total_runs": 34,
+        "valid_submissions": 33,
+        "success_rate": 0.0,
+        "valid_rate": 0.9706
+      },
+      {
+        "task_id": "iwildcam-2019-fgvc6",
+        "total_runs": 28,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "iwildcam-2020-fgvc7",
+        "total_runs": 23,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "jigsaw-toxic-comment-classification-challenge",
+        "total_runs": 34,
+        "valid_submissions": 34,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "jigsaw-unintended-bias-in-toxicity-classification",
+        "total_runs": 26,
+        "valid_submissions": 26,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "kuzushiji-recognition",
+        "total_runs": 34,
+        "valid_submissions": 26,
+        "success_rate": 0.0,
+        "valid_rate": 0.7647
+      },
+      {
+        "task_id": "leaf-classification",
+        "total_runs": 35,
+        "valid_submissions": 34,
+        "success_rate": 0.0,
+        "valid_rate": 0.9714
+      },
+      {
+        "task_id": "learning-agency-lab-automated-essay-scoring-2",
+        "total_runs": 35,
+        "valid_submissions": 34,
+        "success_rate": 0.0,
+        "valid_rate": 0.9714
+      },
+      {
+        "task_id": "lmsys-chatbot-arena",
+        "total_runs": 32,
+        "valid_submissions": 24,
+        "success_rate": 0.0,
+        "valid_rate": 0.75
+      },
+      {
+        "task_id": "multi-modal-gesture-recognition",
+        "total_runs": 35,
+        "valid_submissions": 28,
+        "success_rate": 0.0,
+        "valid_rate": 0.8
+      },
+      {
+        "task_id": "new-york-city-taxi-fare-prediction",
+        "total_runs": 29,
+        "valid_submissions": 28,
+        "success_rate": 0.0,
+        "valid_rate": 0.9655
+      },
+      {
+        "task_id": "nfl-player-contact-detection",
+        "total_runs": 32,
+        "valid_submissions": 26,
+        "success_rate": 0.0,
+        "valid_rate": 0.8125
+      },
+      {
+        "task_id": "osic-pulmonary-fibrosis-progression",
+        "total_runs": 34,
+        "valid_submissions": 28,
+        "success_rate": 0.0,
+        "valid_rate": 0.8235
+      },
+      {
+        "task_id": "petfinder-pawpularity-score",
+        "total_runs": 35,
+        "valid_submissions": 33,
+        "success_rate": 0.0,
+        "valid_rate": 0.9429
+      },
+      {
+        "task_id": "ranzcr-clip-catheter-line-classification",
+        "total_runs": 33,
+        "valid_submissions": 29,
+        "success_rate": 0.0,
+        "valid_rate": 0.8788
+      },
+      {
+        "task_id": "rsna-2022-cervical-spine-fracture-detection",
+        "total_runs": 18,
+        "valid_submissions": 13,
+        "success_rate": 0.0,
+        "valid_rate": 0.7222
+      },
+      {
+        "task_id": "rsna-breast-cancer-detection",
+        "total_runs": 2,
+        "valid_submissions": 0,
+        "success_rate": 0.0,
+        "valid_rate": 0.0
+      },
+      {
+        "task_id": "seti-breakthrough-listen",
+        "total_runs": 34,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 0.1471
+      },
+      {
+        "task_id": "siim-covid19-detection",
+        "total_runs": 10,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.2
+      },
+      {
+        "task_id": "siim-isic-melanoma-classification",
+        "total_runs": 25,
+        "valid_submissions": 21,
+        "success_rate": 0.0,
+        "valid_rate": 0.84
+      },
+      {
+        "task_id": "smartphone-decimeter-2022",
+        "total_runs": 27,
+        "valid_submissions": 2,
+        "success_rate": 0.0,
+        "valid_rate": 0.0741
+      },
+      {
+        "task_id": "statoil-iceberg-classifier-challenge",
+        "total_runs": 31,
+        "valid_submissions": 31,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tabular-playground-series-may-2022",
+        "total_runs": 31,
+        "valid_submissions": 30,
+        "success_rate": 0.0,
+        "valid_rate": 0.9677
+      },
+      {
+        "task_id": "tensorflow2-question-answering",
+        "total_runs": 10,
+        "valid_submissions": 4,
+        "success_rate": 0.0,
+        "valid_rate": 0.4
+      },
+      {
+        "task_id": "text-normalization-challenge-russian-language",
+        "total_runs": 12,
+        "valid_submissions": 12,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tgs-salt-identification-challenge",
+        "total_runs": 35,
+        "valid_submissions": 33,
+        "success_rate": 0.0,
+        "valid_rate": 0.9429
+      },
+      {
+        "task_id": "tweet-sentiment-extraction",
+        "total_runs": 35,
+        "valid_submissions": 35,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "us-patent-phrase-to-phrase-matching",
+        "total_runs": 35,
+        "valid_submissions": 35,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "uw-madison-gi-tract-image-segmentation",
+        "total_runs": 22,
+        "valid_submissions": 5,
+        "success_rate": 0.0,
+        "valid_rate": 0.2273
+      },
+      {
+        "task_id": "ventilator-pressure-prediction",
+        "total_runs": 36,
+        "valid_submissions": 36,
+        "success_rate": 0.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "vesuvius-challenge-ink-detection",
+        "total_runs": 28,
+        "valid_submissions": 16,
+        "success_rate": 0.0,
+        "valid_rate": 0.5714
+      }
+    ],
+    "low_failure": [
+      {
+        "task_id": "herbarium-2020-fgvc7",
+        "total_runs": 3,
+        "valid_submissions": 3,
+        "success_rate": 1.0,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2020-fgvc7",
+        "total_runs": 35,
+        "valid_submissions": 35,
+        "success_rate": 0.8286,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "plant-pathology-2021-fgvc8",
+        "total_runs": 34,
+        "valid_submissions": 34,
+        "success_rate": 0.8529,
+        "valid_rate": 1.0
+      },
+      {
+        "task_id": "tabular-playground-series-dec-2021",
+        "total_runs": 36,
+        "valid_submissions": 36,
+        "success_rate": 0.9444,
+        "valid_rate": 1.0
+      }
+    ]
+  }
+}

@@ -10,6 +10,7 @@ from collections import defaultdict
 RUN_GROUPS_DIR = Path('runs')
 RUN_GROUP_CSV = RUN_GROUPS_DIR / 'run_group_experiments.csv'
 OUTPUT_CSV = 'model_failure_analysis.csv'
+OUTPUT_JSON = 'model_failure_categories.json'
 
 # AIDE Model configurations
 AIDE_MODELS = {
@@ -124,6 +125,34 @@ def main():
     # Save detailed CSV
     df.to_csv(OUTPUT_CSV, index=False)
     
+    # Generate JSON report with task details per model and category
+    model_category_tasks = defaultdict(lambda: defaultdict(list))
+    
+    for entry in final_report:
+        model = entry['model']
+        category = entry['failure_category']
+        task_details = {
+            'task_id': entry['task_id'],
+            'total_runs': entry['total_runs'],
+            'valid_submissions': entry['valid_submissions'],
+            'success_rate': round(entry['success_rate'], 4),
+            'valid_rate': round(entry['valid_rate'], 4)
+        }
+        model_category_tasks[model][category].append(task_details)
+    
+    # Convert to regular dict for JSON serialization
+    json_report = {
+        model: {
+            category: sorted(tasks, key=lambda x: x['task_id'])
+            for category, tasks in categories.items()
+        }
+        for model, categories in model_category_tasks.items()
+    }
+    
+    # Save to JSON file
+    with open(OUTPUT_JSON, 'w') as f:
+        json.dump(json_report, f, indent=2)
+    
     # Print summary
     print("Model-wise Failure Analysis Report (AIDE only)")
     print("-" * 100)
@@ -138,7 +167,9 @@ def main():
     model_success = df.groupby('model')['success_rate'].agg(['mean', 'count'])
     print(model_success)
     
-    print(f"\nDetailed results saved to {OUTPUT_CSV}")
+    print(f"\nDetailed results saved to:")
+    print(f"- CSV: {OUTPUT_CSV}")
+    print(f"- JSON: {OUTPUT_JSON}")
 
 if __name__ == '__main__':
     main() 
