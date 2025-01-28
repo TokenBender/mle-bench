@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .table-container {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th {
+            background-color: #f5f7fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #ddd;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        .priority-table td:nth-child(1) {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .justification {
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Original Table from Epoch -->
+<div class="table-container">
+    <h2>AI R&D Workflow Skills Mapping</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Area</th>
+                <th>Examples from Epoch</th>
+                <th>Relevant Environments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Creating hypothesis</td>
+                <td>Error pattern analysis, model interpretation, causal reasoning</td>
+                <td>Optimize a Kernel, Scaling Law Experiment</td>
+            </tr>
+            <tr>
+                <td>High-level planning</td>
+                <td>Conceptual thinking, system improvements, research direction</td>
+                <td>Fix Embedding, Restricted Architecture MLM</td>
+            </tr>
+            <tr>
+                <td>Detailed planning</td>
+                <td>Experiment plans, prioritization</td>
+                <td>Optimize LLM Foundry, Finetune GPT-2 for QA</td>
+            </tr>
+            <tr>
+                <td>Designing experiments</td>
+                <td>Ablation studies, counterfactual testing, architecture variations</td>
+                <td>Restricted Architecture MLM, Finetune GPT-2 for QA</td>
+            </tr>
+            <tr>
+                <td>Prototype engineering</td>
+                <td>Writing code, architectural changes</td>
+                <td>Restricted Architecture MLM</td>
+            </tr>
+            <tr>
+                <td>Performance engineering</td>
+                <td>Efficiency improvements, large-scale systems</td>
+                <td>Optimize a Kernel, Optimize LLM Foundry</td>
+            </tr>
+            <tr>
+                <td>Debugging</td>
+                <td>Error analysis, code fixes</td>
+                <td>Optimize a Kernel</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Priority Tables Side by Side -->
+<div class="table-container" style="display: flex; gap: 20px;">
+    <!-- Abhishek's Priority List -->
+    <div style="flex: 1;">
+        <h2>Abhishek's Priority Order</h2>
+        <table class="priority-table">
+            <thead>
+                <tr>
+                    <th>Priority</th>
+                    <th>Environment</th>
+                    <th class="justification">Justification</th>
+                    <th>Relevant Skills</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Optimize a Kernel</td>
+                    <td>Requires deep expertise in low-level optimization and hardware architecture. Very few engineers have this specialized knowledge.</td>
+                    <td>Performance engineering, Debugging</td>
+                    <td>Daily</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Finetune GPT-2 for QA</td>
+                    <td>Standard ML engineering skills needed. More common expertise but requires attention to detail.</td>
+                    <td>Experiment design, Analysis</td>
+                    <td>Daily</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Optimize LLM Foundry</td>
+                    <td>Requires distributed systems expertise and understanding of ML infrastructure at scale.</td>
+                    <td>Detailed planning, Scaling</td>
+                    <td>Weekly</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Restricted Architecture MLM</td>
+                    <td>Research-oriented task requiring understanding of model architectures and ablation studies.</td>
+                    <td>Research design, Prototyping</td>
+                    <td>Monthly</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Fix Embedding</td>
+                    <td>Needs senior ML engineers with strong theoretical understanding of embedding spaces and model architecture.</td>
+                    <td>High-level planning, System design</td>
+                    <td>Quarterly</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Scaling Law Experiment</td>
+                    <td>Complex theoretical work requiring deep understanding of ML scaling behaviors.</td>
+                    <td>Theoretical modeling, Analysis</td>
+                    <td>Bi-annual</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Vignesh's Priority List -->
+    <div style="flex: 1;">
+        <h2>Vignesh's Priority Order</h2>
+        <table class="priority-table">
+            <thead>
+                <tr>
+                    <th>Priority</th>
+                    <th>Environment</th>
+                    <th class="justification">Justification</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Scaffolding for Rust Codecontest</td>
+                    <td>Foundation work for code evaluation infrastructure</td>
+                    <td>Weekly</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Finetune GPT-2 for QA</td>
+                    <td>Core model adaptation for specific use case</td>
+                    <td>Daily</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Scaling Law Experiment</td>
+                    <td>Understanding model behavior at different scales</td>
+                    <td>Bi-annual</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Optimize LLM Foundry</td>
+                    <td>Infrastructure optimization for better performance</td>
+                    <td>Weekly</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Restricted Architecture LLM</td>
+                    <td>Experimental model architecture research</td>
+                    <td>Monthly</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Optimize a Kernel</td>
+                    <td>Low-level performance optimization</td>
+                    <td>Daily</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Fix Embedding</td>
+                    <td>Model component improvement</td>
+                    <td>Quarterly</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
